@@ -1,0 +1,64 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": ["Hi there", "How are you", "Is anyone there?", "Hello", "Good day"],
+            "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+            "context": [""]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+            "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+            "context": [""]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+            "responses": ["Happy to help!", "Any time!", "My pleasure"],
+            "context": [""]
+        },
+        {
+            "tag": "noanswer",
+            "patterns": [],
+            "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+            "context": [""]
+        },
+        {
+            "tag": "options",
+            "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?"],
+            "responses": ["I can tell you about my (Damian's) education, work experience, personal projects, skills and interests", "My primary function is to provide professional information about myself (Damian). Try asking me about technical skills or work experience."],
+            "context": [""]
+        },
+        {
+            "tag": "education",
+            "patterns": ["What university did you go to?", "Do you have a degree?", "Do you have a BSc in Computer Science?", "Where did you go to uni?"],
+            "responses": ["I have a BSc Computer Science degree (First Class Honours) from the University of Hertforshire. My dissertation was titled 'An Evaluation of Sentiment Analysis Algorithms'"],
+            "context": [""]
+        },
+        {
+            "tag": "skills",
+            "patterns": ["Tell me about your technical skills", "What programming languages do you know?", "Are you familiar with Javascript?", "Do you know Python?", "I'm looking for a Java developer."],
+            "responses": ["I'm a Full Stack developer, proficient in Javascript (React.js, Node.js), Java and Python. I have experience with both SQL and NoSQL databases and am familiar with CI/CD technologies including Kubernetes, Jenkins and GitHub. I am also familiar with Machine Learning frameworks and libraries including TensorFlow/Keras and scikit-learn."],
+            "context": [""]
+        },
+        {
+            "tag": "projects",
+            "patterns": ["Where can I see your work?", "Have you written any blogs?", "Tell me about some personal projects?", "Do you have a GitHub account?"],
+            "responses": ["I have a number of personal projects listed on my website https://damiancummins.github.io including links to blog posts, github repositories and information about events I've attended."],
+            "context": [""]
+        },
+        {
+            "tag": "experience",
+            "patterns": ["Tell me about your work experience", "Where have you worked?", "What experience do you have?", "Tell me about your time at IBM"],
+            "responses": ["I've worked at IBM since I graduated in 2015 (I also worked at IBM as an intern during my degree). My role as a Software Developer involved in building enterprise grade, cloud-native, Software-as-a-Service (SaaS) solutions in the Data and AI space at IBM, in particular ETL and AI Operations offerings. Most recently, I've been responsible for React.js based UIs, backend Node.js REST microservices and a Python runtime compute engine, with both SQL and NoSQL databases (DB2, PostgreSQL, Cloudant)."],
+            "context": [""]
+        },
+        {
+            "tag": "hobbies",
+            "patterns": ["What are your hobbies?", "What are your hobbies outside of work?", "What do you do for fun?", "What do you do in your down-time?"],
+            "responses": ["I play Five-a-side Football pretty regularly, I go camping and hiking fairly often, and I try to make it out to France/Switzerland over the Ski season. I've also been attending French classes for the past year."],
+            "context": [""]
+        }
+   ]
+}

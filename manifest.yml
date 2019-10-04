@@ -1,0 +1,5 @@
+---
+applications:
+- name:    damian-assistant-app
+  memory:  1G
+  timeout: 180
