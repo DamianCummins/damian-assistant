@@ -1,8 +1,8 @@
 import express from "express";
 import nconf from "nconf";
 import assistantUtil from "../lib/utils/assistantUtil";
-import authClient from "../lib/clients/auth-client";
 import openscaleClient from "../lib/clients/openscale-client";
+import authClient from "../lib/clients/auth-client";
 import uuid from "uuid";
 
 const router = express.Router();
@@ -51,6 +51,8 @@ router.post("/assistant/message", (req, res, next) => {
 	}
 
 	const logPayload = req.query.logPayload;
+
+	console.log(JSON.stringify(req.body.values));
 
 	Promise.all(req.body.values.map(assistantUtil.predict))
 		.then((preds) => {

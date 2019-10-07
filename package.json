@@ -23,7 +23,6 @@
     "nconf": "^0.10.0",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-native": "^0.61.1",
     "react-scripts": "3.1.2",
     "regenerator-runtime": "^0.13.3",
     "uuid": "^3.3.3"
@@ -49,5 +48,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-preset-jest": "^24.9.0"
   }
 }

@@ -17,12 +17,12 @@ export default class Assistant extends React.Component {
 		};
 		
 		this.state = {
-		  messages: []
+		  messages: [{
+			author: this.bot,
+			timestamp: new Date(),
+			text: "Ask me something about Damian."
+		}]
 		}
-	}
-	
-	componentDidMount () {
-		this.getMessage("What can you do?".replace(/[\n\r]+/g, ' '));
 	}
 
 	onSend = (event = []) => {
