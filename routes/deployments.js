@@ -76,15 +76,11 @@ router.post("/assistant/message", (req, res, next) => {
 			}
 			return Promise.resolve();
 		}).then((payloadLoggingResponse) => {
-			if(!logPayload) {
-				response.messageId = messageId + "-1";
-			}
 			res.json(response);
 			return;
 		}).catch((err) => {
 			next(err);
 		});
-
 });
 
 

@@ -17,11 +17,11 @@ export default class Assistant extends React.Component {
 		};
 		
 		this.state = {
-		  messages: [{
-			author: this.bot,
-			timestamp: new Date(),
-			text: "Ask me something about Damian."
-		}]
+			messages: [{
+				author: this.bot,
+				timestamp: new Date(),
+				text: "Ask me something about Damian."
+			}]
 		}
 	}
 
@@ -76,5 +76,5 @@ export default class Assistant extends React.Component {
 				</div>
 			</div>
 		);
-	  }
+	}
 }
