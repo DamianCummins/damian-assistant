@@ -20,7 +20,7 @@
     "file-loader": "^4.2.0",
     "ignore-styles": "^5.0.1",
     "lancaster-stemmer": "^1.0.4",
-    "nconf": "^0.10.0",
+    "nconf": "^0.11.4",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-scripts": "3.1.2",
